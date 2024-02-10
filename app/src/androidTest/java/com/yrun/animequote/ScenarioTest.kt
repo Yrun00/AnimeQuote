@@ -20,8 +20,8 @@ class ScenarioTest {
         val quotePage = QuotePage()
         quotePage.checkVisible("")
         quotePage.clickGet()
-        quotePage.checkError(message = "No internet connection")
-        quotePage.clickRetry()
+        quotePage.checkVisible(quote = "No internet connection")
+        quotePage.clickGet()
         quotePage.checkVisible(quote = "How far do you want me to suppress myself so that you'll be satisfied?")
     }
 }
