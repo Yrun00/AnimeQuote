@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AnimeQuote</string>
+    <string name="get_quote">Get quote</string>
 </resources>
