@@ -23,6 +23,8 @@ interface UiState {
             with(binding) {
                 progressBar.visibility = View.VISIBLE
                 textView.text = ""
+                animeTextView.text = ""
+                characterTextView.text = ""
                 getButton.isEnabled = false
             }
         }
